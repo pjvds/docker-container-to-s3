@@ -7,7 +7,7 @@ build:
         code: |
           cd $WERCKER_SOURCE_DIR
           sudo docker build -t mies/rethinkdb .
-          RETHINKD_ID=(sudo docker run -d mies/rethinkdb)
+          RETHINK_ID=(sudo docker run -d mies/rethinkdb)
           sudo docker export $RETHINK_ID > $WERCKER_OUTPUT_DIR/container.tar
 deploy:
   steps:
