@@ -2,7 +2,7 @@ FROM base
 
 maintainer Micha Hernandez van Leuffen
 
-#install RethinkDB
+# install RethinkDB
 
 run apt-get install -y software-properties-common
 run add-apt-repository -y ppa:rethinkdb/ppa
