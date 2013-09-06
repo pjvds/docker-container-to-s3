@@ -1,4 +1,4 @@
-from base
+FROM base
 
 maintainer Micha Hernandez van Leuffen
 
